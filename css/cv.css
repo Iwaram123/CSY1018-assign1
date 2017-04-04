@@ -18,6 +18,9 @@ header img{
 h1{
   color: white;
 }
+ol li{
+  display: flex;flex-direction: column;
+}
 Li {
   display: inline;
 }
@@ -33,9 +36,6 @@ h2 {
    width: 100%;padding: 0.01%;
    background: grey;
 }
-ul li  {
-  display: flex;flex-direction: column;
-}
 .navbar ul{
   display: flex;flex-direction: row;justify-content: space-between;
   color: white;
@@ -47,11 +47,8 @@ ul li  {
 .navbar ul li a{
   margin-right: 3%;text-decoration: none;color: white;
 }
-.navbar a:hover{
-  color: black; background: yellow; width: 24%;border-radius: 25px;
-}
-h5 ul {
-  display: flex;flex-direction: column;
+.navbar a:hover {
+  color: black; background: yellow; width: 24%;border-radius: 30px;
 }
 .sidebar {
   margin-top: 0%;
