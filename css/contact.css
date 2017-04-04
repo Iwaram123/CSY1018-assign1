@@ -1,0 +1,111 @@
+body {
+
+  font-size: 25px;font-style: normal;margin: 0;padding: 0;background-color: white;
+  margin: 0; padding: 0;
+  }
+  h1,h2,h3,h4,h5,h6,p,ul:{
+    margin: 0; padding: 0;
+  }
+  header{
+      display: flex;flex-direction: row;
+      margin: 0 5px;
+      text-align: center;
+      padding:15px;
+      background-color: steelblue;
+}
+header img{
+  margin-top: 2px;
+  margin-right: 15px;
+  width: 150px;
+  height: 150px;
+}
+ h2 {
+   font-size: 50px;
+   color: steelblue;
+ }
+ h1{
+   color: white;
+ }
+ li {
+   display: inline;
+ }
+ .navbar {
+    margin: 5px;
+    padding-right: 5%;
+    width: 100%;padding: 0.01%;
+    background: grey;
+ }
+ .navbar ul{
+   display: flex;flex-direction: row;justify-content: space-between;
+   color: white;
+   text-align: center;
+   padding:0 15px;
+   font-size: 22px;
+   text-decoration: none;
+ }
+ .navbar ul li a{
+   margin-right: 3%;text-decoration: none;color: white;
+ }
+ .navbar a:hover{
+   color: black; background: yellow; width: 24%;border-radius: 25px;
+ }
+ section {
+   background: #4e5d69;padding: 0.7%;margin: 0 5px; margin-bottom: 5px;
+ }
+ form {
+   margin: 1px;
+   width:500px;
+   color: steelblue;
+ }
+ input {
+   padding: 20px;padding-left: 20%;
+   font-size: inherit;
+ }
+ input[type="text"] {
+   text-align: center;
+   display: block;
+   margin: 10px;
+   width: 150%;
+   border: 2px solid steelblue;
+ }
+ input[type="email"] {
+   display: block;
+   margin: 10px;
+   width: 150%;
+   border: 2px solid green;
+ }
+ input[type="message"] {
+   display: block;
+   margin: 10px;
+   width: 150%;
+   height: 150px;
+   border: 2px solid red;
+ }
+.sidebar {
+  display: flex;flex-direction: row;justify-content: space-between;
+ }
+ .sidebar img{
+   width: 400px;
+   height: 400px;
+   margin-top: 2px;
+ }
+ footer {
+   background: rgba(70, 98, 180, 0.96);
+   padding: 5px;margin:0 5px;
+   font-size: 20px;
+   display: flex;flex-direction: row;
+ }
+ footer img {
+   width: 60px;
+   height: 60px;
+   padding-left:300px;
+   margin-top: 10px;
+   display: flex;flex-direction: row;
+ }
+ .block p {
+   padding-left: 300px;
+ }
+ .sidebar p {
+   margin-top:50px;
+   margin-left: 150px;
+}

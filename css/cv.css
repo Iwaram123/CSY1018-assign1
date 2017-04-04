@@ -18,14 +18,23 @@ header img{
 h1{
   color: white;
 }
-li {
+Li {
   display: inline;
+}
+h2 {
+  padding-left: 700px;color: steelblue;
+}
+.sidebar img {
+  padding-left: 1200px;
 }
 .navbar {
    margin: 5px;
    padding-right: 5%;
    width: 100%;padding: 0.01%;
    background: grey;
+}
+ul li  {
+  display: flex;flex-direction: column;
 }
 .navbar ul{
   display: flex;flex-direction: row;justify-content: space-between;
@@ -41,24 +50,15 @@ li {
 .navbar a:hover{
   color: black; background: yellow; width: 24%;border-radius: 25px;
 }
+h5 ul {
+  display: flex;flex-direction: column;
+}
 .sidebar {
   margin-top: 0%;
   margin: auto;
 }
-.main {
-  display: flex;flex-direction: row;
-}
-.main p {
-  color: white;margin-left: 20px;
-}
 section {
-  background: #4e5d69;padding: 0.7%;margin: 0 5px; margin-bottom: 5px;
-}
-img{
-   width: 350px;
-   height: 400px;
-   margin-top: 20px;
-   margin-bottom: 50px;
+  background: #4e5d69;padding: 0.7%;margin: 0 5px; margin-bottom: 5px;color: white;
 }
 footer {
   background: rgba(70, 98, 180, 0.96);
@@ -70,6 +70,7 @@ footer img {
   width: 60px;
   height: 60px;
   padding-left:300px;
+  margin-top: 10px;
   display: flex;flex-direction: row;
 }
 .block p {
