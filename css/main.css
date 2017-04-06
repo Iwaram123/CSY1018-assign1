@@ -75,5 +75,34 @@ footer img {
 .block p {
   padding-left: 300px;
 }
+@media screen and (max-width:800px) {
+  footer{
+    flex-direction: column;
+  }
+  footer.block p{
+    margin-left: 0;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  section .main {
+    flex-direction: column;width: 100%;
+  }
+  section .main img {
+    max-width: 100%;
+  }
+  .block {
+    margin-left: 5px;
+  }
+  .block p {
+    padding-left: 5px;
+  }
+  footer img{
+  padding-left: 5px;
+  }
+  footer .sidebar{
+  padding-left: 0px;
+  margin-left: 10px;
+  }
 
 }

@@ -105,6 +105,9 @@ header img{
    font-size: 20px;
    display: flex;flex-direction: row;
  }
+ section .sidebar{
+  display: flex;flex-direction: column;
+ }
  footer img {
    width: 60px;
    height: 60px;
@@ -118,4 +121,47 @@ header img{
  .sidebar p {
    margin-top:50px;
    margin-left: 150px;
+}
+@media screen and (max-width:800px) {
+  footer{
+    flex-direction: column;
+  }
+  footer.block p{
+    margin-left: 0;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  section .main {
+    flex-direction: column;width: 100%;
+  }
+  section .main img {
+    max-width: 100%;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+  input[type="email"] {
+    width: 100%;
+  }
+  input[type="message"] {
+    width:100%;
+    height: 90px;
+  }
+  section .sidebar{
+    flex-direction: column;
+  }
+  .block {
+    margin-left: 5px;
+  }
+  .block p {
+    padding-left: 5px;
+  }
+  footer img{
+  padding-left: 5px;
+  }
+  footer .sidebar1{
+  padding-left: 0px;
+  margin-left: 10px;
+  }
 }

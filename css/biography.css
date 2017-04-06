@@ -79,3 +79,41 @@ footer img {
   margin-top:50px;
   padding-right: 20px;
 }
+@media screen and (max-width:800px) {
+  footer{
+    flex-direction: column;
+  }
+  footer.block p{
+    margin-left: 0;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  section h1{
+    padding-left:100px;
+  }
+  section .main {
+    flex-direction: column;width: 100%;
+  }
+  section .main img {
+    max-width: 100%;
+  }
+  section img{
+    width: 100%;
+    height: auto;
+  }
+  .block {
+    margin-left: 5px;
+  }
+  .block p {
+    padding-left: 5px;
+  }
+  footer img{
+  padding-left: 5px;
+  }
+  footer .sidebar{
+  padding-left: 0px;
+  margin-left: 10px;
+  }
+
+}
